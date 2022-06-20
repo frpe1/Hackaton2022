@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: IcoTree_Texture
+  m_Name: Portal_IcoTree
   m_Shader: {fileID: 4800000, guid: 8583f78c1a1678a45b78e3ab601edae9, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
@@ -61,7 +61,7 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Floats:
     - _BumpScale: 1
-    - _Cutoff: 0.5
+    - _Cutoff: 0.466
     - _DetailNormalMapScale: 1
     - _DstBlend: 0
     - _GlossMapScale: 1
@@ -75,7 +75,7 @@ Material:
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
     - _SrcBlend: 1
-    - _StencilComp: 3
+    - _StencilComp: 0
     - _UVSec: 0
     - _ZWrite: 1
     m_Colors:

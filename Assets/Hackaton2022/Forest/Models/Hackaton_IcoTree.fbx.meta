@@ -8,7 +8,7 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: IcoTree_Texture
-    second: {fileID: 2100000, guid: 61cf53630f00cbc42bef73946612679f, type: 2}
+    second: {fileID: 2100000, guid: abe1a146b6b1db348a7a8a0fbec527e4, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
