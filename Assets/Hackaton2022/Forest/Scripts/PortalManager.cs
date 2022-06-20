@@ -59,6 +59,8 @@ namespace Hackaton2022.Skogen
 
         private void OnTriggerEnter(Collider collider)
         {
+            DebugManager.Instance.AddDebugMessage("You have collided with the portal!");
+
             GameObject MainCamera = GameObject.FindGameObjectWithTag("MainCamera");
             if (collider.transform != MainCamera.transform)
                 return;

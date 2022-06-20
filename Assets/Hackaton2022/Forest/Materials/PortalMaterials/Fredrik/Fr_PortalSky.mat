@@ -7,8 +7,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: FeatheredPlaneShader
-  m_Shader: {fileID: 4800000, guid: 58be7d490e5a92d4c8a7259b57440624, type: 3}
+  m_Name: Fr_PortalSky
+  m_Shader: {fileID: 4800000, guid: 1a649da409d40b441a646bda23bbd78b, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
@@ -20,11 +20,12 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: f8356cf5bd24e694dbf77c6411a9d8b4, type: 3}
-        m_Scale: {x: 2, y: 2}
+        m_Texture: {fileID: 2800000, guid: 62fb3d93c2f533e44b8840accff2eb2e, type: 3}
+        m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    m_Floats: []
-    m_Colors:
-    - _PlaneColor: {r: 1, g: 1, b: 1, a: 0}
-    - _TexTintColor: {r: 1, g: 0.8025613, b: 0.24056602, a: 0.07058824}
+    m_Floats:
+    - _Ref: 1
+    - _StencilComp: 3
+    - _UVSec: 0
+    m_Colors: []
   m_BuildTextureStacks: []
