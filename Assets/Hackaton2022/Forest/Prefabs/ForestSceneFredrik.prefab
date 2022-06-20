@@ -141,7 +141,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: bc8e804c290471641ba509c75b72312c, type: 2}
+  - {fileID: 2100000, guid: cfbde01d6536b8c43adb9595f57ccdbc, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -186,7 +186,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2164728360852715202}
   m_Layer: 0
-  m_Name: ForestScene
+  m_Name: ForestSceneFredrik
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -389,8 +389,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   materials:
-  - {fileID: 2100000, guid: bc8e804c290471641ba509c75b72312c, type: 2}
-  - {fileID: 2100000, guid: 6f13c451f459e394baa884f945a6bc9d, type: 2}
+  - {fileID: 2100000, guid: cfbde01d6536b8c43adb9595f57ccdbc, type: 2}
+  - {fileID: 2100000, guid: b8f4513a8e31e1a4ebbefcad2b9fd29e, type: 2}
+  - {fileID: 2100000, guid: ded8e528e56ab6f4c93d156ce7666dc4, type: 2}
   audioSource: {fileID: 8426644891059306402}
 --- !u!1 &3286548021717865226
 GameObject:
