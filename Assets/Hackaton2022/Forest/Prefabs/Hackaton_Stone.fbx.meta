@@ -3,7 +3,12 @@ guid: 05b8865a832d06347bb12f42e6a2c3dc
 ModelImporter:
   serializedVersion: 20200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Stone.log_Texture
+    second: {fileID: 2100000, guid: de0e8f1a2e3c91e489a4352f7b490d97, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

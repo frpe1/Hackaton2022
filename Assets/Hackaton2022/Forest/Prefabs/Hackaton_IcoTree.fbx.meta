@@ -3,7 +3,12 @@ guid: 64cc5f500965e60449e4e105f7836126
 ModelImporter:
   serializedVersion: 20200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: IcoTree_Texture
+    second: {fileID: 2100000, guid: 61cf53630f00cbc42bef73946612679f, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
