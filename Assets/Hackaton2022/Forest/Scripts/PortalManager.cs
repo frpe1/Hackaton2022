@@ -29,6 +29,12 @@ namespace Hackaton2022.Skogen
             SetMaterials(false);
         }
 
+        /// <summary>
+        /// Sätter en egenskap hos shader-materialet som avgör om de ska "maskas" bort
+        /// eller visas helt. Det är denna funktion som simulerar att du trätt in i 
+        /// portalen och befinner dig i den andra världen eller står utanför den. 
+        /// </summary>
+        /// <param name="fullRender"></param>
         void SetMaterials(bool fullRender)
         {
             var stencilTest = fullRender ? CompareFunction.NotEqual : CompareFunction.Equal;
@@ -42,9 +48,12 @@ namespace Hackaton2022.Skogen
         //Set bidirectional function
         bool GetIsInFront()
         {
+            // Hämta referens till huvudkameran (AR kameran)
             GameObject MainCamera = GameObject.FindGameObjectWithTag("MainCamera");
+            // Beräkna om dess "worldposition" vart den befinner sig 
             Vector3 worldPos = MainCamera.transform.position + MainCamera.transform.forward * Camera.main.nearClipPlane;
             camPostionInPortalSpace = transform.InverseTransformPoint(worldPos);
+            // och returnerar om kameran befinner sig framför Portalen" eller på andra sidan om portalen
             return camPostionInPortalSpace.y >= 0 ? true : false;
         }
 
@@ -53,11 +62,13 @@ namespace Hackaton2022.Skogen
             GameObject MainCamera = GameObject.FindGameObjectWithTag("MainCamera");
             if (collider.transform != MainCamera.transform)
                 return;
+
             wasInFront = GetIsInFront();
             hasCollided = true;
 
             audioIsActive = !audioIsActive;
 
+            // Växla till att spela eller inte spela. 
             if (audioIsActive)
                 audioSource.Play();
             else
@@ -74,6 +85,9 @@ namespace Hackaton2022.Skogen
             hasCollided = false;
         }
 
+        /// <summary>
+        /// Detta sker undertiden du kolliderar med box-collider
+        /// </summary>
         void whileCameraColliding()
         {
             if (!hasCollided)
@@ -82,7 +96,7 @@ namespace Hackaton2022.Skogen
             if ((isInFront && !wasInFront) || (wasInFront && !isInFront))
             {
                 inOtherWorld = !inOtherWorld;
-                SetMaterials(inOtherWorld);
+                SetMaterials(inOtherWorld); // Byt material
             }
             wasInFront = isInFront;
         }
