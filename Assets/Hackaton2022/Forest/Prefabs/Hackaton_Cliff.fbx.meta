@@ -1,14 +1,9 @@
 fileFormatVersion: 2
-guid: 72474c503873c524c9d9edc4031afe02
+guid: 1dd31ef895162424fb7afaed99ef7d5a
 ModelImporter:
   serializedVersion: 20200
   internalIDToNameTable: []
-  externalObjects:
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: ChristmasTree_Texture
-    second: {fileID: 2100000, guid: 820fe64158ca83b4c8c23b5bc9ac1bc3, type: 2}
+  externalObjects: {}
   materials:
     materialImportMode: 2
     materialName: 0
