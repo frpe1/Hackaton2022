@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 1931476940892551226}
   - component: {fileID: 1931476940892551224}
   m_Layer: 0
-  m_Name: Hackaton_Tree_TEST
+  m_Name: Hackaton_Tree_Portal
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -59,7 +59,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 820fe64158ca83b4c8c23b5bc9ac1bc3, type: 2}
+  - {fileID: 2100000, guid: 6f13c451f459e394baa884f945a6bc9d, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
