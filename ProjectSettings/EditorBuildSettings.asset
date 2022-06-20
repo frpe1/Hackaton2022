@@ -6,8 +6,8 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Hackaton2022/Forest/Scenes/Forest.unity
-    guid: 50dd11e37e73b06449778441f00c76d5
+    path: Assets/Hackaton2022/Forest/Scenes/Fredrik/Forest AR setup and Portal Scene.unity
+    guid: b6d73bdd84bae3649b47c66d160b540f
   m_configObjects:
     UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: 66e0a6f538bddb644b8bc26962620bbf, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 1feb455b32aa2cb488548b38a72c39d4, type: 2}
